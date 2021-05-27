@@ -1,0 +1,18 @@
+<html>
+<body class="bgcolor">
+
+	<div>
+	
+		<div class="verticalSpace">&nbsp;</div>
+			<div *ngFor="let element of partnersInRange">
+				{{element.organization}} <br><br> 
+				{{element.services}}  <br><br> 
+				{{element.offices[0].address}} <br><br> 
+				{{element.website}}
+				<hr>
+			</div>
+			
+	</div>
+	
+</body>
+</html>
